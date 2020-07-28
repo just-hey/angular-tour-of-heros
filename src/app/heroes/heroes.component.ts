@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Hero } from '../hero';
 import { HEROES } from '../mock-heroes';
-console.log("dis?");
+
 @Component({
-  selector: 'app-heroes',
+  selector: 'app-heros',
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.css']
 })
